@@ -51,5 +51,6 @@ jobs:
         with:
           app-name: 'ecopro-api-unique'
           slot-name: 'Production'
-          package: .
+          package: ./server
+
           publish-profile: ${{ secrets.AZUREAPPSERVICE_PUBLISHPROFILE_F7821A7FBB3D43C294BBCB974B1F51F4 }}
