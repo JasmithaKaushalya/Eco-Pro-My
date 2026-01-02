@@ -38,7 +38,7 @@ const Navbar = () => {
 
     try {
       // Backend URL - change this to your actual backend URL
-      const backendUrl = 'http://localhost:5000/api/auth'
+      const backendUrl = '/api/auth'
       
       if (isRegister) {
         // Registration
