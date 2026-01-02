@@ -12,7 +12,7 @@ const ActivityPage = () => {
 
         const token = localStorage.getItem.token
 
-        const response = await fetch('/api/activity/add', {
+        const response = await fetch('api/activity/add', {
             method: 'POST',
             headers: {
                 'Content-Type': 'application/json',
